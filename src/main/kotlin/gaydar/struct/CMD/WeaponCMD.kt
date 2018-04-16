@@ -1,12 +1,12 @@
-package gaydar.struct.CMD
+package leonbentre.struct.CMD
 
-import gaydar.deserializer.channel.ActorChannel.Companion.firing
-import gaydar.struct.Actor
-import gaydar.struct.Bunch
-import gaydar.struct.NetGuidCacheObject
-import gaydar.struct.Weapon
-import gaydar.util.debugln
-import gaydar.util.tuple2
+import leonbentre.deserializer.channel.ActorChannel.Companion.firing
+import leonbentre.struct.Actor
+import leonbentre.struct.Bunch
+import leonbentre.struct.NetGuidCacheObject
+import leonbentre.struct.Weapon
+import leonbentre.util.debugln
+import leonbentre.util.tuple2
 
 object WeaponCMD
 {
