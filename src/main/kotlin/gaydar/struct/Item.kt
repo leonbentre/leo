@@ -1,4 +1,4 @@
-package gaydar.struct
+package leonbentre.struct
 
 class Item
 {
