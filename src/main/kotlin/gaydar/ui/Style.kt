@@ -1,4 +1,4 @@
-package gaydar.ui
+package leonbentre.ui
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.graphics.Color.YELLOW
