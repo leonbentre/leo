@@ -1,14 +1,14 @@
-package gaydar.deserializer
+package leonbentre.deserializer
 
 import com.badlogic.gdx.math.Vector2
 import com.badlogic.gdx.math.Vector3
 import org.pcap4j.core.NotOpenException
-import gaydar.struct.ExportFlags
-import gaydar.struct.Names
-import gaydar.struct.NetGUIDCache.Companion.guidCache
-import gaydar.struct.NetGuidCacheObject
-import gaydar.struct.NetworkGUID
-import gaydar.util.debugln
+import leonbentre.struct.ExportFlags
+import leonbentre.struct.Names
+import leonbentre.struct.NetGUIDCache.Companion.guidCache
+import leonbentre.struct.NetGuidCacheObject
+import leonbentre.struct.NetworkGUID
+import leonbentre.util.debugln
 import java.nio.charset.Charset
 import kotlin.experimental.and
 import kotlin.experimental.or
