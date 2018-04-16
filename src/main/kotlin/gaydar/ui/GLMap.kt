@@ -1,4 +1,4 @@
-package gaydar.ui
+package leonbentre.ui
 
 import com.badlogic.gdx.*
 import com.badlogic.gdx.Input.Buttons.*
