@@ -1,4 +1,4 @@
-package gaydar.util
+package leonbentre.util
 
 import com.badlogic.gdx.graphics.Color
 
