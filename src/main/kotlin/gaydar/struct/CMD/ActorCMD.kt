@@ -1,14 +1,14 @@
-package gaydar.struct.CMD
+package leonbentre.struct.CMD
 
-import gaydar.GameListener
-import gaydar.deserializer.ROLE_MAX
-import gaydar.deserializer.channel.ActorChannel.Companion.actors
-import gaydar.register
-import gaydar.struct.Actor
-import gaydar.struct.Bunch
-import gaydar.struct.NetGuidCacheObject
-import gaydar.struct.NetworkGUID
-import gaydar.util.debugln
+import leonbentre.GameListener
+import leonbentre.deserializer.ROLE_MAX
+import leonbentre.deserializer.channel.ActorChannel.Companion.actors
+import leonbentre.register
+import leonbentre.struct.Actor
+import leonbentre.struct.Bunch
+import leonbentre.struct.NetGuidCacheObject
+import leonbentre.struct.NetworkGUID
+import leonbentre.util.debugln
 import java.util.concurrent.ConcurrentHashMap
 
 object ActorCMD : GameListener
