@@ -1,11 +1,11 @@
-package gaydar.deserializer.channel
+package leonbentre.deserializer.channel
 
-import gaydar.GameListener
-import gaydar.deserializer.RELIABLE_BUFFER
-import gaydar.gameStarted
-import gaydar.register
-import gaydar.struct.Bunch
-import gaydar.struct.NetGUIDCache.Companion.guidCache
+import leonbentre.GameListener
+import leonbentre.deserializer.RELIABLE_BUFFER
+import leonbentre.gameStarted
+import leonbentre.register
+import leonbentre.struct.Bunch
+import leonbentre.struct.NetGUIDCache.Companion.guidCache
 
 abstract class Channel(val chIndex : Int, val chType : Int, val client : Boolean = true)
 {
