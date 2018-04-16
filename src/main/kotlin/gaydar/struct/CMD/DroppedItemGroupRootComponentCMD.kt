@@ -1,14 +1,14 @@
-package gaydar.struct.CMD
+package leonbentre.struct.CMD
 
-import gaydar.deserializer.channel.ActorChannel.Companion.droppedItemCompToItem
-import gaydar.deserializer.channel.ActorChannel.Companion.droppedItemLocation
-import gaydar.deserializer.channel.ActorChannel.Companion.itemBag
-import gaydar.struct.Actor
-import gaydar.struct.Bunch
-import gaydar.struct.NetGuidCacheObject
-import gaydar.struct.NetworkGUID
-import gaydar.util.DynamicArray
-import gaydar.util.debugln
+import leonbentre.deserializer.channel.ActorChannel.Companion.droppedItemCompToItem
+import leonbentre.deserializer.channel.ActorChannel.Companion.droppedItemLocation
+import leonbentre.deserializer.channel.ActorChannel.Companion.itemBag
+import leonbentre.struct.Actor
+import leonbentre.struct.Bunch
+import leonbentre.struct.NetGuidCacheObject
+import leonbentre.struct.NetworkGUID
+import leonbentre.util.DynamicArray
+import leonbentre.util.debugln
 
 object DroppedItemGroupRootComponentCMD
 {
