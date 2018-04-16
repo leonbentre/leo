@@ -1,15 +1,15 @@
-package gaydar.struct.CMD
+package leonbentre.struct.CMD
 
-import gaydar.GameListener
-import gaydar.deserializer.channel.ActorChannel.Companion.attacks
-import gaydar.deserializer.channel.ActorChannel.Companion.selfID
-import gaydar.deserializer.channel.ActorChannel.Companion.selfStateID
-import gaydar.deserializer.channel.ActorChannel.Companion.uniqueIds
-import gaydar.register
-import gaydar.struct.*
-import gaydar.struct.Item.Companion.simplify
-import gaydar.util.debugln
-import gaydar.util.tuple2
+import leonbentre.GameListener
+import leonbentre.deserializer.channel.ActorChannel.Companion.attacks
+import leonbentre.deserializer.channel.ActorChannel.Companion.selfID
+import leonbentre.deserializer.channel.ActorChannel.Companion.selfStateID
+import leonbentre.deserializer.channel.ActorChannel.Companion.uniqueIds
+import leonbentre.register
+import leonbentre.struct.*
+import leonbentre.struct.Item.Companion.simplify
+import leonbentre.util.debugln
+import leonbentre.util.tuple2
 import java.util.concurrent.ConcurrentHashMap
 
 val playerNames = ConcurrentHashMap<NetworkGUID, String>()
