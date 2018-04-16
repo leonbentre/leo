@@ -1,11 +1,11 @@
-package gaydar.struct.CMD
+package leonbentre.struct.CMD
 
-import gaydar.struct.Actor
-import gaydar.struct.Archetype
-import gaydar.struct.Archetype.*
-import gaydar.struct.Bunch
-import gaydar.struct.CMD.Processor.processors
-import gaydar.struct.NetGuidCacheObject
+import leonbentre.struct.Actor
+import leonbentre.struct.Archetype
+import leonbentre.struct.Archetype.*
+import leonbentre.struct.Bunch
+import leonbentre.struct.CMD.Processor.processors
+import leonbentre.struct.NetGuidCacheObject
 
 typealias processor = (Actor, Bunch, NetGuidCacheObject?, Int, HashMap<String, Any?>) -> Boolean
 
