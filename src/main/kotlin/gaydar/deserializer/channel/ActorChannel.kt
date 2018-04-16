@@ -1,19 +1,19 @@
-package gaydar.deserializer.channel
+package leonbentre.deserializer.channel
 
 import com.badlogic.gdx.math.Vector2
 import com.badlogic.gdx.math.Vector3
-import gaydar.GameListener
-import gaydar.deserializer.CHTYPE_ACTOR
-import gaydar.register
-import gaydar.struct.*
-import gaydar.struct.Archetype.*
-import gaydar.struct.CMD.receiveProperties
-import gaydar.struct.NetGUIDCache.Companion.guidCache
-import gaydar.struct.Team
-import gaydar.ui.itemIcons
-import gaydar.util.DynamicArray
-import gaydar.util.tuple2
-import gaydar.util.tuple3
+import leonbentre.GameListener
+import leonbentre.deserializer.CHTYPE_ACTOR
+import leonbentre.register
+import leonbentre.struct.*
+import leonbentre.struct.Archetype.*
+import leonbentre.struct.CMD.receiveProperties
+import leonbentre.struct.NetGUIDCache.Companion.guidCache
+import leonbentre.struct.Team
+import leonbentre.ui.itemIcons
+import leonbentre.util.DynamicArray
+import leonbentre.util.tuple2
+import leonbentre.util.tuple3
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.ConcurrentLinkedQueue
 
