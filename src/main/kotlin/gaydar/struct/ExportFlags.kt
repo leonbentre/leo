@@ -1,4 +1,4 @@
-package gaydar.struct
+package leonbentre.struct
 
 class ExportFlags(val value : Int)
 {
