@@ -1,9 +1,9 @@
-package gaydar
+package leonbentre
 
-import gaydar.ui.GLMap
-import gaydar.util.settings.Settings
-import java.util.Collections.newSetFromMap
-import java.util.concurrent.ConcurrentHashMap
+import leonbentreleonbentreleonbentreleonbentre.ui.GLMap
+import leonbentreleonbentreleonbentre.util.settings.Settings
+import leonbentreleonbentre.util.Collections.newSetFromMap
+import leonbentre.util.concurrent.ConcurrentHashMap
 
 const val gridWidth = 813000f
 const val mapWidth = 819200f
