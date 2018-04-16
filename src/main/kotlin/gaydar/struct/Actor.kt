@@ -1,14 +1,14 @@
-package gaydar.struct
+package leonbentre.struct
 
 import com.badlogic.gdx.math.Vector2
 import com.badlogic.gdx.math.Vector3
-import gaydar.struct.Archetype.*
-import gaydar.struct.Archetype.Companion.fromArchetype
-import gaydar.struct.Archetype.PlayerState
-import gaydar.struct.Archetype.Team
-import gaydar.struct.Archetype.Weapon
-import gaydar.util.DynamicArray
-import gaydar.util.tuple2
+import leonbentre.struct.Archetype.*
+import leonbentre.struct.Archetype.Companion.fromArchetype
+import leonbentre.struct.Archetype.PlayerState
+import leonbentre.struct.Archetype.Team
+import leonbentre.struct.Archetype.Weapon
+import leonbentre.util.DynamicArray
+import leonbentre.util.tuple2
 import java.util.Collections.newSetFromMap
 import java.util.concurrent.ConcurrentHashMap
 
