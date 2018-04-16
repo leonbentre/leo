@@ -1,17 +1,17 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package gaydar.deserializer
+package leonbentre.deserializer
 
-import gaydar.haveEncryptionToken
-import gaydar.EncryptionToken
-import gaydar.missedDecryption
-import gaydar.deserializer.channel.ActorChannel
-import gaydar.deserializer.channel.Channel.Companion.closedInChannels
-import gaydar.deserializer.channel.Channel.Companion.closedOutChannels
-import gaydar.deserializer.channel.Channel.Companion.inChannels
-import gaydar.deserializer.channel.Channel.Companion.outChannels
-import gaydar.deserializer.channel.ControlChannel
-import gaydar.struct.Bunch
+import leonbentre.haveEncryptionToken
+import leonbentre.EncryptionToken
+import leonbentre.missedDecryption
+import leonbentre.deserializer.channel.ActorChannel
+import leonbentre.deserializer.channel.Channel.Companion.closedInChannels
+import leonbentre.deserializer.channel.Channel.Companion.closedOutChannels
+import leonbentre.deserializer.channel.Channel.Companion.inChannels
+import leonbentre.deserializer.channel.Channel.Companion.outChannels
+import leonbentre.deserializer.channel.ControlChannel
+import leonbentre.struct.Bunch
 import java.util.concurrent.ConcurrentLinkedQueue
 import kotlin.concurrent.thread
 import kotlin.experimental.and
