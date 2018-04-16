@@ -1,8 +1,8 @@
 package leonbentre
 
-import leonbentreleonbentreleonbentreleonbentre.ui.GLMap
-import leonbentreleonbentreleonbentre.util.settings.Settings
-import leonbentreleonbentre.util.Collections.newSetFromMap
+import leonbentre.ui.GLMap
+import leonbentre.util.settings.Settings
+import leonbentre.util.Collections.newSetFromMap
 import leonbentre.util.concurrent.ConcurrentHashMap
 
 const val gridWidth = 813000f
