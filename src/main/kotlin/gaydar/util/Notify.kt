@@ -1,4 +1,4 @@
-package gaydar.util
+package leonbentre.util
 
 import javax.swing.JOptionPane
 
