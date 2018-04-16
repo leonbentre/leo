@@ -1,11 +1,11 @@
-package gaydar.struct.CMD
+package leonbentre.struct.CMD
 
 import com.badlogic.gdx.math.Vector3
-import gaydar.deserializer.byteRotationScale
-import gaydar.deserializer.channel.ActorChannel.Companion.playerStateToActor
-import gaydar.struct.*
-import gaydar.struct.CMD.ActorCMD.actorWithPlayerState
-import gaydar.util.debugln
+import leonbentre.deserializer.byteRotationScale
+import leonbentre.deserializer.channel.ActorChannel.Companion.playerStateToActor
+import leonbentre.struct.*
+import leonbentre.struct.CMD.ActorCMD.actorWithPlayerState
+import leonbentre.util.debugln
 import java.util.concurrent.ConcurrentHashMap
 
 var selfDirection = 0f
